@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+.body
+{
+    background: #E4E9F7;
+}
+
+.user-section{
+    position: relative;
+    background: #E4E9F7;
+    min-height: 100vh;
+    top: 0;
+    left: 78px;
+    width: calc(100% - 78px);
+    transition: all 0.5s ease;
+    z-index: 2;
+  }
+
+.sidebar.open ~ .user-section{
+    left: 250px;
+    width: calc(100% - 250px);
+  }
+
+.user-section .text
+{
+    display: inline-block;
+    color: #11101d;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 18px
+}
+
+body
+{
+    width: 100%;
+    background: #E5E7EB;
+}
+
+.board
+{
+    width: 94%;
+    overflow: auto;
+    background: #fff;
+    border-radius: 8px;
+    margin: 40px;
+}
+
+.board h5
+{
+    font-weight: 600;
+    font-size: 14px;
+    color: #787d8d;
+}
+
+.board p 
+{
+    font-weight: 400;
+    font-size: 13px;
+    color: #787d8d;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+tr
+{
+    border-bottom: 1px solid #eef0f3;
+}
+
+thead td
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: #F9FAFB;
+    padding: 15px;
+}
+
+tbody tr td
+{
+    padding: 10px 15px;   
+}
+
+.active p 
+{
+    background-color: #d7fada;
+    padding: 2px 10px;
+    display: inline-block;
+    border-radius: 40px;
+    color: #2b2b2b;
+}
+
+.edit a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: #554cd1;
+    font-weight: 600;
+}
+
+

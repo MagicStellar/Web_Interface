@@ -1,0 +1,72 @@
+{
+  "server": [
+    {
+      "id": "3048",
+      "name": "Chandani_Chowk",
+      "password": "1234",
+      "protected": "0",
+      "region": "delhi",
+      "map": "mumbai",
+      "owner": null,
+      "players": null,
+      "maxPlayerCount": "24",
+      "playerCount": "0",
+      "created": "2022-08-24 16:15:41",
+      "access": "ALL_ACCESS",
+      "lastUpdated": "2022-08-26 16:27:53",
+      "address": "3.6.80.109:7778",
+      "live": "1"
+    },
+    {
+      "id": "4021",
+      "name": "Champa_Gali",
+      "password": "1234",
+      "protected": "0",
+      "region": "delhi",
+      "map": "mumbai",
+      "owner": null,
+      "players": null,
+      "maxPlayerCount": "24",
+      "playerCount": "0",
+      "created": "2022-08-24 16:15:41",
+      "access": "ALL_ACCESS",
+      "lastUpdated": "2022-08-26 16:27:55",
+      "address": "3.6.80.109:7779",
+      "live": "1"
+    },
+    {
+      "id": "5062",
+      "name": "Azaad_Maidaan",
+      "password": "1234",
+      "protected": "0",
+      "region": "mumbai",
+      "map": "mumbai",
+      "owner": null,
+      "players": null,
+      "maxPlayerCount": "24",
+      "playerCount": "0",
+      "created": "2022-08-24 16:15:40",
+      "access": "ALL_ACCESS",
+      "lastUpdated": "2022-08-26 16:27:53",
+      "address": "3.6.80.109:7776",
+      "live": "1"
+    },
+    {
+      "id": "6024",
+      "name": "Marine_Drive",
+      "password": "1234",
+      "protected": "0",
+      "region": "mumbai",
+      "map": "mumbai",
+      "owner": null,
+      "players": null,
+      "maxPlayerCount": "24",
+      "playerCount": "0",
+      "created": "2022-08-24 16:15:40",
+      "access": "ALL_ACCESS",
+      "lastUpdated": "2022-08-26 16:27:53",
+      "address": "3.6.80.109:7777",
+      "live": "1"
+    }
+  ]
+}

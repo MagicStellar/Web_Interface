@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "name": "web_interface",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start":"json-server --watch ./db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

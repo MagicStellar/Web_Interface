@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreamcapes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+          <i class='bx bxl-c-plus-plus icon'></i>
+            <div class="logo_name">Dreamcapes</div>
+            <i class='bx bx-menu' id="btn" ></i>
+        </div>
+        <ul class="nav-list">
+          <li>
+              <i class='bx bx-search' ></i>
+             <input type="text" placeholder="Search...">
+             <span class="tooltip">Search</span>
+          </li>
+          <li>
+            <a href="./Index.html">
+              <i class='bx bx-grid-alt'></i>
+              <span class="links_name">Dashboard</span>
+            </a>
+             <span class="tooltip">Dashboard</span>
+          </li>
+          <li>
+           <a href="./User.html">
+             <i class='bx bx-user' ></i>
+             <span class="links_name">User</span>
+           </a>
+           <span class="tooltip">User</span>
+         </li>
+         <li class="profile">
+             <div class="profile-details">
+               <!--<img src="profile.jpg" alt="profileImg">-->
+               <div class="name_job">
+                 <div class="name">Rahul Sir</div>
+                 <div class="job">Admin</div>
+               </div>
+             </div>
+             <i class='bx bx-log-out' id="log_out" ></i>
+         </li>
+        </ul>
+      </div>
+      <section class="home-section">
+        <div class="w3-bar w3-black">
+            <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'Default')">Dashboard</button>
+            <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Detailed')">Detailed</button>
+          </div>
+                    
+        <div class="page-heading">
+          
+          <div id="Default" class="w3-container city">
+            <div class="container" id="cont">
+                <div class="header">
+                    <h2>Mumbai</h2>
+                </div>                  
+                <div class="info">
+                    <table class="user-info">
+                        <tbody id="tbody">
+                            <tr>
+                             <td id = "1">Server 01</td>
+                                <td>Active</td>
+                            </tr>
+                            <tr>
+                                <td>Server 02</td>
+                                <td id = "ip">Active</td>
+                            </tr>
+                            <tr>
+                                <td>Server 03</td>
+                                <td>Unactive</td>
+                            </tr>
+                            <tr>
+                                <td>Server 04</td>
+                                <td>Unactive</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+          </div>
+          
+          <div id="Detailed" class="w3-container city" style="display:none">
+            <div class="text">Dashboard</div>
+            <div class="card" id="card">
+                <div class="container" id="cont">
+                <div class="header">
+                    <h2>Server 01</h2>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>                  
+                <div class="info">
+                    <table class="user-info">
+                        <tbody id="tbody">
+                            <tr>
+                             <td id = "1">Server ID</td>
+                                <td>Active</td>
+                            </tr>
+                            <tr>
+                                <td>Server IP</td>
+                                <td id = "ip">Active</td>
+                            </tr>
+                            <tr>
+                                <td>No Client</td>
+                                <td>Unactive</td>
+                            </tr>
+                            <tr>
+                                <td>No Client</td>
+                                <td>Unactive</td>
+                            </tr>
+                            <tr>
+                                <td>Total Client</td>
+                                <td>02/04</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+                <!-- <div class="container">
+                    <h2>Server 02</h2>
+                <div class="info">
+                    <table class="user-info">
+                        <tbody id="tbody">
+                            <tr>
+                                <td>Tom 2040</td>
+                                <td>Active</td>
+                            </tr>
+                            <tr>
+                                <td>Marsh 1002</td>
+                                <td>Active</td>
+                            </tr>
+                            <tr>
+                                <td>No Client</td>
+                                <td>Unactive</td>
+                            </tr>
+                            <tr>
+                                <td>No Client</td>
+                                <td>Unactive</td>
+                            </tr>
+                            <tr>
+                                <td>Total Client</td>
+                                <td>02/04</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+                <div class="container">
+                    <h2>Server 03</h2>
+                <div class="info">
+                    <table class="user-info">
+                        <tbody id="tbody">
+                            <tr>
+                                <td>Tom 2040</td>
+                                <td>Active</td>
+                            </tr>
+                            <tr>
+                                <td>Marsh 1002</td>
+                                <td>Active</td>
+                            </tr>
+                            <tr>
+                                <td>No Client</td>
+                                <td>Unactive</td>
+                            </tr>
+                            <tr>
+                                <td>No Client</td>
+                                <td>Unactive</td>
+                            </tr>
+                            <tr>
+                                <td>Total Client</td>
+                                <td>02/04</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div> -->
+            </div>
+          </div>
+            <!-- <label class="switch">
+                <input class="switch-input" type="checkbox" />
+                <span class="switch-label" data-on="On" data-off="Off"></span> 
+                <span class="switch-handle"></span> 
+            </label> -->
+        </div>
+        
+      </section>
+      <script src="script.js"></script>
+</body>
+</html>
