@@ -21,7 +21,7 @@ function td_fun(id, name, map, playerCount, address, region, maxPlayerCount, pas
   td.innerHTML = ` 
   <div class="container" id="cont">
   <div class="header">
-    <h2>Server 0${id}</h2>
+    <h2>Server</h2>
     <label class="switch1">
       <input type="checkbox">
       <span class="slider round"></span>
@@ -43,20 +43,16 @@ function td_fun(id, name, map, playerCount, address, region, maxPlayerCount, pas
               <td>${region}</td>
             </tr>
             <tr>
+              <td>Server Map</td>
+              <td>${map}</td>
+            </tr>
+            <tr>
               <td>Max Player Count</td>
               <td>${password}</td>
             </tr>
             <tr>
               <td>Player Count</td>
               <td>${playerCount}</td>
-            </tr>
-            <tr>
-              <td>Server Map</td>
-              <td>${map}</td>
-            </tr>
-            <tr>
-              <td>Password</td>
-              <td>${maxPlayerCount}</td>
             </tr>
           </tbody>
       </table>
